@@ -56,7 +56,7 @@ const defaultMenu = {
 ┆⬡ *Premium* : Ⓟ
 ┆⬡ *Uptime:* : %uptime (%muptime)
 ┆⬡ *Run Bot* : Okteto/heroku
-┆⬡ *Ig Owner* : instagram.com/oscarbotz_
+┆⬡ *Ig Owner* : instagram.com/rangga_botz
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╭─❑ 〔 %category 〕 ❑─\n┃',
@@ -165,7 +165,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    /*conn.sendHydrated(m.chat, `${global.anu}`, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', 'Website🌟', '', '', [
+    /*conn.sendHydrated(m.chat, `${global.anu}`, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://youtube.com/channel/UCkiB1g5qA7xtd7AlXd46vcw', 'Website🌟', '', '', [
       ['Donate🌟', '/donasi'],
       ['Sewa Bot🌟', '/sewa'],
       ['Owner🌟', '/owner']
@@ -179,17 +179,17 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: text.trim(),
-                            hydratedFooterText:'                『 𝑱𝑨𝑹𝑶𝑻 𝑶𝑭𝑭𝑪 』',
+                            hydratedFooterText:'                『 XIAOMI 𝑶𝑭𝑭𝑪 』',
                             hydratedButtons: [{
                               urlButton: {
                                     displayText: '𝙂𝙧𝙤𝙪𝙥 🌏',
-                                    url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+                                    url: 'https://chat.whatsapp.com/CxhaZtrxdn4AfSUOHuCtcM'
                                 }
                                 
                             }, {
                               urlButton: {
                                     displayText: '𝙔𝙤𝙪𝙏𝙪𝙗𝙚 📺',
-                                    url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+                                    url: 'https://youtube.com/channel/UCkiB1g5qA7xtd7AlXd46vcw'
                                 }
                             }, {
                                 quickReplyButton: {

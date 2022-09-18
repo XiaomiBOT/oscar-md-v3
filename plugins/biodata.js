@@ -3,31 +3,31 @@ let fs = require('fs')
 let handler = async (m) => {
 let jarot = `
 •·––––––––––––––––––––––––––·•
-❑ *Nama* : Jarot
-❑ *Umur* : 18 Tahun
-❑ *Kelas* : Lulus
-❑ *Ulang Tahun* : 30 Januari 2004
-❑ *Alamat* : AS, AS, Pelabuhan
+❑ *Nama* : Hanz
+❑ *Umur* : 13 Tahun
+❑ *Kelas* : 1 SMP
+❑ *Ulang Tahun* : 7 April 2009
+❑ *Alamat* : Tambun, Bekasi, Jawa Barat
 •·––––––––––––––––––––––––––·•
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya7)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
-                hydratedContentText: jarot,
+                hydratedContentText: hanz,
                 imageMessage: message.imageMessage, 
            hydratedFooterText: 'salam kenal bang👋',
            hydratedButtons: [{
              urlButton: {
                displayText: '𝙂𝙧𝙤𝙪𝙥 𝘽𝙤𝙩 𝙊𝙛𝙛𝙘 🐈',
-               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+               url: 'https://chat.whatsapp.com/CxhaZtrxdn4AfSUOHuCtcM'
              }
 
            },
                 {
                urlButton: {
                displayText: '𝙇𝙞𝙣𝙠 𝙔𝙤𝙪𝙏𝙪𝙗𝙚 🌍',
-               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+               url: 'https://youtube.com/channel/UCkiB1g5qA7xtd7AlXd46vcw'
              }
 
            },

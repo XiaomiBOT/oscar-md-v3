@@ -15,9 +15,9 @@ let anu = `Hallo mypren 👋
 ⬡ *Tutorial Jadibot:* 50.000
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
-⬡ *DANA:* ${6285850539404}
-⬡ *GOPAY:* ${6285850539404}
-⬡ *Youtube:* ${'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'}
+⬡ *DANA:* ${6285779150501}
+⬡ *GOPAY:* ${6285779150501}
+⬡ *Youtube:* ${'https://youtube.com/channel/UCkiB1g5qA7xtd7AlXd46vcw'}
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━〔 ıll *RULES* llı 〕━ꕥ
 ⬡ [❗] *Dana yang sudah masuk tidak bisa di kembalikan*

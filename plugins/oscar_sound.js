@@ -1,6 +1,6 @@
 let fs = require('fs')
 let handler = async (m) => {
-let jarot = fs.readFileSync('./mp3/WhatsApp-Ptt-2021-07-14-at-18.12.80.opus')
+let jarot = fs.readFileSync('./mp3/DJ+LITERASI+DEMONS.mp3')
 conn.sendFile(m.chat, jarot, '', '', m, true)
 }
 

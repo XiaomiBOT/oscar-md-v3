@@ -11,7 +11,7 @@ m.reply(`
 │ *Kelas    :* 
 │ *Asal     :* 
 │ *Agama    :* 
-| *Youtubeme:* https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ
+| *Youtube me:* https://youtube.com/channel/UCkiB1g5qA7xtd7AlXd46vcw
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `.trim()) // Tambah sendiri kalo mau
 }
